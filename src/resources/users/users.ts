@@ -2,7 +2,7 @@ import { db } from '../../db/index.js';
 import { usersNavigation } from '../navigation.section.js';
 
 export default {
-  resource: db.table('Users_accounts'),
+  resource: db.table('users'),
 
   options: {
     navigation: usersNavigation,
