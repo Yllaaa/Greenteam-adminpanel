@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["dist"],
+  "exec": "dotenv -c .env -- node --loader ts-node/esm ./src/app.ts"
+}
