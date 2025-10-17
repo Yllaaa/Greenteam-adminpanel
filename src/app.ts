@@ -8,7 +8,7 @@ import initializeDb from './db/index.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 9000;
 
 const start = async () => {
   const app = express();
