@@ -35,7 +35,7 @@ type ApiStatsResponse = {
 
 type TimePeriod = 'daily' | 'weekly' | 'monthly';
 
-const API_BASE_URL = process.env.API_BASE_URL || 'https://api.greenteam.com/api/v1';
+const API_BASE_URL = process.env.API_BASE_URL || 'https://api.greenteam.app/api/v1';
 
 const Dashboard: FC = () => {
   const api = new ApiClient();
